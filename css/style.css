@@ -1,0 +1,293 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    /* Căn giữa nội dung chính */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* Đảm bảo tỷ lệ khung hình ảnh không bị biến đổi */
+    display: block;
+    /* Loại bỏ khoảng trắng dưới hình ảnh khi nó làm thành inline element */
+    margin: 0 auto;
+    /* Canh giữa hình ảnh trong container */
+}
+
+label {
+    font-weight: 100;
+}
+
+/*body { text-align: justify; }*/
+
+.row {
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.crops img {
+    width: 100%;
+}
+
+a {
+    color: #000;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+/* Thanh tin khác */
+.related-stories h4 {
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 1px solid #1057ae;
+    padding: 8px 8px 6px;
+    font-weight: bold;
+    background: #1057ae;
+}
+
+.related-stories ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+.time,
+.time2 {
+    font-size: 11px;
+    padding-left: 5px;
+}
+
+.time .openmedia {
+    font-family: Arial;
+    font-style: italic;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.crop img,
+#articlecontent img {
+    max-width: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.snap-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+
+/* Màu nền trang */
+#content {
+    background: #fff;
+    padding-top: 60px;
+}
+
+/* thanh toolbar */
+
+#toolbar {
+    background: #1057ae;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 99999;
+}
+
+#toolbar h1 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);*/
+    position: absolute;
+    top: 0;
+    right: 44px;
+    left: 44px;
+    width: auto;
+    height: 50px;
+}
+
+#toolbar img {
+    position: absolute;
+    top: 6px;
+    left: 15%;
+    width: 36px;
+    height: 36px;
+}
+
+
+/* Mục menu trên góc */
+#open-left {
+    background: url(http://medinet.gov.vn/App_Themes/Default/Image/open.png) center center no-repeat #1057ae;
+    display: block;
+    width: 44px;
+    height: 50px;
+}
+
+/* Thanh trên cùng */
+#toolbar .search-button {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    top: 0;
+    padding: 10px 15px;
+    font-size: 20px;
+    background: #1057ae;
+}
+
+#toolbar h1 a {
+    color: White;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* thời gian ở list tin khác */
+.time {
+    font-style: italic;
+    color: #888;
+}
+
+.time span {
+    color: #aaa;
+    padding-right: 5px;
+}
+
+.infoFooter {
+    float: left;
+    max-width: 100% !important;
+}
+
+/* logo ở ô dưới cùng */
+.LogoBotoom {
+    float: left;
+    width: 20%;
+    display: none;
+}
+
+/* ô dưới cùng */
+#CenterFooter {
+    background: #1057ae none repeat scroll 0 0;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 5px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+#CenterFooter * {
+    color: White !important;
+}
+
+
+.headerTitle h1 {
+    font-weight: bold;
+    font-family: 'arial';
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.ContentODM img {
+    padding-bottom: 10px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.related-stories ul li a {
+    font-family: Arial;
+    font-size: 15px;
+    display: block;
+    padding: 0 0px 0px 24px;
+    text-align: left;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.related-stories>ul>li>span {
+    background: red;
+    width: 15px;
+    height: 15px;
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    margin-top: 3px;
+    background-size: 18px;
+    font-size: 13px;
+    font-family: Arial;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+
+.author,
+.source {
+    text-align: left;
+}
+
+.detail-sapo {
+    text-align: left;
+}
+
+.tieudetintucs {
+    background: #d5d7da;
+    width: 100%;
+    height: 40px;
+}
+
+.tintuctitle {
+    color: #1057ae;
+    text-decoration: none;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.time {
+    text-align: left;
+}
